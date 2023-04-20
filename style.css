@@ -1,0 +1,63 @@
+body{
+  background-color: #F9F9FA;
+}
+h1, h4, h3{
+  font-family: 'Inter', sans-serif;
+  color: #101010;
+  text-align: center;
+}
+h4{
+  font-size: 12px;
+}
+#guitarra1{
+  width: 250px;
+  height: 250px;
+}
+#guitarra2{
+  width: 250px;
+  height: 250px;
+}
+#guitarra3{
+  width: 250px;
+  height: 250px;
+}
+.productos{
+  background-color: #EEF3FF;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px #A3BEE7;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  
+}
+
+ul{
+  list-style: none;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #edededdd;
+  padding: 16px;
+  }
+
+a{
+  color: #101010;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+a:hover{
+  color: blue;
+}
+
+.info{
+  background-color: #EEF3FF;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px #A3BEE7;
+  align-items: center;
+  color: #101010;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
